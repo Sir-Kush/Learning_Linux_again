@@ -1,4 +1,4 @@
-    1  echo "Hello World"
+
     2  echo "I'm Free Now"
     3  git --version
     4  apt update -y
@@ -6,13 +6,13 @@
     6  sudo apt list -- upgradable
     7  git config --lobal user.name "Sir-Kush"
     8  git config --global user.name "Sir-Kush"
-    9  git config --global user.email "sirkush91@gmail.com"
+D    9  git config --global user.email "sirkush91@gmail.com"
    10  git --version
    11  git config -list -show-origin
-   12  git config --list -show-origin
+ D  12  git config --list -show-origin
    13  git config --list --show-origin
    14  git config --global -e
-   15  git config --global core.editor
+  D 15  git config --global core.editor
    16  git config --global -e
    17  git config --global core.autocrlf input
    18  git config --global -e
@@ -111,3 +111,5 @@
   111  less task1.txt 
   112  cat history
   113  history >> JobDoneToday.txt
+for 09/01/2023
+

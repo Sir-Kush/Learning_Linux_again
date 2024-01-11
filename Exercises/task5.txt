@@ -1,0 +1,26 @@
+1: Create a file called -file ( pls don't forget the - at the beginning of the file)
+2: Remove the file you just created!
+
+Solution;
+Run
+1: $ touch -file or vi -file and many more
+2: $ rm -file
+
+Thank you.
+
+Q: Find a file from the /root that has the word net in it
+
+Solution;
+$ find/root -type d -name net
+
+Q: Run help on the echo command, logout command and pwd command.
+
+Solution;
+echo command
+$ help echo
+
+logout command
+$ help logout
+
+pwd (Present working Directory) command
+$ help pwd
