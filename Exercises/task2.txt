@@ -1,0 +1,5 @@
+Q: When you run the cd command without any argument what is the response it give
+
+Solution:
+When run the cd without anything, it takes us to the user directory by default
+

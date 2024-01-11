@@ -1,0 +1,6 @@
+1: $ cd .	// It maintain the current directory
+2: $ cd ..	// It take you to the directory above the current directory
+3: $ cd ~	// Take you to the default directory which is the home directory
+4: $ cd -	// It takes you to previous directory you left from.
+
+Note: The location of files and directories in Linux are referred to as PATH

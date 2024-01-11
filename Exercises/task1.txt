@@ -1,0 +1,8 @@
+Try this Linux command and tell us what they do below
+	1. $ date
+	2. $ whoami
+
+Solution:
+Q1: The "date" command gives the date and the current time including time zone
+	e.g, Tue 09 Jan 2024, 
+Q2: The "whoami" command shows the current user name.

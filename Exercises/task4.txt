@@ -1,0 +1,2 @@
+1: Create a new file, Note the timestamp on it.
+2: Touch the file by using touch command on the file you've just created.
