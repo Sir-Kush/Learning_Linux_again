@@ -1,0 +1,14 @@
+Q:Try a couple of commands:
+
+1: $ ls -l /var/log > myoutput.txt
+
+2: $ echo Hello World > rm
+
+3: $ > somefile.txt
+
+Solution;
+1: It list out the long list log file and  appending it to the file called myoutput.txt using redirection of standard output
+
+2: It read Hello World to file rm by using redirection
+
+3: redirection and creating a file called somefile.txt

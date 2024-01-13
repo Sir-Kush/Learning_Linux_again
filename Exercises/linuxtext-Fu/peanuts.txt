@@ -1,0 +1,5 @@
+banana.txt
+peanuts.txt
+stdinclass.txt
+stdintask.txt
+stdouttask.txt

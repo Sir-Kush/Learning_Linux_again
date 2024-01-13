@@ -1,0 +1,15 @@
+Q:Try out a couple of commands:
+
+$ echo < peanuts.txt > banana.txt
+
+$ ls < peanuts.txt > banana.txt
+
+$ pwd < peanuts.txt > banana.txt
+
+Solution;
+We redirected the file in peanuts.txt has stdin to echo and redirected it with stdout to banana.txt but the content of peanuts did not read on the banana file
+
+we list out the content in the peanuts.txt file into ls command using stdin and write it to banan.txt file with stdout
+
+same as the first one
+
