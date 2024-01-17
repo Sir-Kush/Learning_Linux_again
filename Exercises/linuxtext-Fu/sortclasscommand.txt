@@ -1,0 +1,15 @@
+  688  sort file1.txt 
+  690  sort file1.txt >> sortfile1.txt
+  691  cat sortfile1.txt 
+  692  sort -r file1.txt 
+  693  sort -r file1.txt >> reverseSortFile1.txt
+  695  sort -n file1.txt 
+  696  sort -n file1.txt >> numericsortFile1.txt
+  712  sort reading.txt | uniq -uc
+  713  sort reading.txt | uniq -u
+  714  sort reading.txt | uniq
+  715  sort reading.txt | uniq >> sortwithuniqreading.txt
+  716  sort reading.txt | uniq -d
+  717  sort reading.txt | uniq -d >> avoidingduplicatewithuniqreading.txt
+  723  history | grep sort
+  724  history | grep sort >> sortclasscommand.txt
