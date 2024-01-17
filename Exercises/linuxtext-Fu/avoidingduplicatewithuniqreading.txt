@@ -1,0 +1,5 @@
+article
+book
+paper
+pepper
+thesis

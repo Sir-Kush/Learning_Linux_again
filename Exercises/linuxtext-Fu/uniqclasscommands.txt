@@ -1,0 +1,16 @@
+  703  uniq reading.txt 
+  704  uniq -c reading.txt 
+  705  uniq reading.txt >> uniqreading.txt
+  706  uniq -c reading.txt >> uniqCountreading.txt
+  707  uniq -u reading.txt 
+  708  uniq -uc reading.txt 
+  709  uniq -uc reading.txt >>uniqlycountreading.txt
+  711  uniq -d reading.txt 
+  712  sort reading.txt | uniq -uc
+  713  sort reading.txt | uniq -u
+  714  sort reading.txt | uniq
+  715  sort reading.txt | uniq >> sortwithuniqreading.txt
+  716  sort reading.txt | uniq -d
+  717  sort reading.txt | uniq -d >> avoidingduplicatewithuniqreading.txt
+  718  history | grep uniq
+  719  history | grep uniq >> uniqclasscommands.txt

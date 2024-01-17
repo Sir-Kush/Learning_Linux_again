@@ -1,0 +1,10 @@
+book
+paper
+pepper
+tomatto
+article
+magazine
+pepper
+thesis
+yam
+thesis
