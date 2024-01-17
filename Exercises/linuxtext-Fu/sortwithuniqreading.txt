@@ -6,3 +6,13 @@ pepper
 thesis
 tomatto
 yam
+  716  sort reading.txt | uniq -d
+  717  sort reading.txt | uniq -d >> avoidingduplicatewithuniqreading.txt
+  723  history | grep sort
+  724  history | grep sort >> sortclasscommand.txt
+  726  git commit -m "Update on sorting text command"
+  737  ls /etc | sort -rn
+  738  history | grep sort | tail
+  739  history | grep sort 
+  740  history | grep sort | tail
+  741  history | grep sort | tail >> sortwithuniqreading.txt 
