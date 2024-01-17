@@ -1,0 +1,13 @@
+total 384
+-rw-r--r--  1 root root             25240 Jan 11 16:06 alternatives.log
+drwxr-xr-x  1 root root                60 Jan 11 16:06 apt
+-rw-r--r--  1 root            1003  41516 Sep 19 11:18 bootstrap.log
+-rw-rw----  1 root utmp                 0 Sep 19 11:18 btmp
+-rw-r--r--  1 root root            291169 Jan 11 16:07 dpkg.log
+-rw-r--r--  1 root root              3424 Sep 19 11:19 faillog
+-rw-r--r--  1 root root              3662 Jan 11 16:07 fontconfig.log
+drwxr-sr-x+ 1 root systemd-journal     64 Dec 25 23:01 journal
+-rw-rw-r--  1 root utmp             31244 Sep 19 11:19 lastlog
+drwx------  1 root root                 0 Dec 25 23:01 private
+drwxr-xr-x  1 root root                 6 Sep 19 11:19 runit
+-rw-rw-r--  1 root utmp             15360 Jan 12 09:24 wtmp

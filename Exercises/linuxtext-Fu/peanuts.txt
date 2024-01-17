@@ -1,5 +1,8 @@
 banana.txt
 peanuts.txt
+pinitin.txt
+sample2.txt
+sample.txt
 stdinclass.txt
 stdintask.txt
 stdouttask.txt

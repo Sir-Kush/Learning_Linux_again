@@ -1,0 +1,611 @@
+
+    2  echo "I'm Free Now"
+    3  git --version
+    4  apt update -y
+    5  sudo apt update -y
+    6  sudo apt list -- upgradable
+    7  git config --lobal user.name "Sir-Kush"
+    8  git config --global user.name "Sir-Kush"
+D    9  git config --global user.email "sirkush91@gmail.com"
+   10  git --version
+   11  git config -list -show-origin
+ D  12  git config --list -show-origin
+   13  git config --list --show-origin
+   14  git config --global -e
+  D 15  git config --global core.editor
+   16  git config --global -e
+   17  git config --global core.autocrlf input
+   18  git config --global -e
+   19  mkdir bluechip
+   20  cd bluechip/
+   21  ls
+   22  ll
+   23  ls -al
+   24  git init
+   25  ls -al
+   26  open .git/
+   27  echo hello world > file1
+   28  cp file1 file1.txt
+   29  ls
+   30  git add file1 file1.txt
+   31  git status
+   32  git rm --cached file1
+   33  ls
+   34  git status 
+   35  git commit
+   36  whoami
+   37  ls /etc/*release*
+   38  cat /etc/*os-release*
+   39  curl http://www.google.com
+   40  ls /root/
+   41  sudols /root/
+   42  sudo ls /root/
+   43  sudo ls /root
+   44  vi
+   45  uptime
+   46  curl https://w3school.com
+   47  ls
+   48  cd /etc
+   49  pwd
+   50  cd
+   51  mkdir LerningLinux
+   52  cd LerningLinux/
+   53  touch hello.txt
+   54  gedit hello.txt 
+   55  vi hello.txt 
+   56  cat hello.txt 
+   57  clear
+   58  ls
+   59  echo "Hello, World" >> hello.txt 
+   60  cat hello.txt 
+   61  mkdir Exercises
+   62  cd LerningLinux/Exercises/
+   63  cat > task1.txt
+   64  date
+   65  cat >> task1.txt 
+   66  woami
+   67  whoami
+   68  vi task1.txt 
+   69  pwd
+   70  cd
+   71  cd LerningLinux/Exercises/
+   72  vi task2.txt
+   73  cd .
+   74  cd ..
+   75  cd ~
+   76  cd -
+   77  mkdir CheatSheet
+   78  cat > cdCommandSheet.txt
+   79  vi Exercises/task3.txt
+   80  ls -R
+   81  ls
+   82  mv cdCommandSheet.txt CheatSheet
+   83  ls -R
+   84  ls -r
+   85  cat Exercises/task3.txt 
+   86  ls -t
+   87  ls -Rr
+   88  ls -l
+   89  touch hello.txt 
+   90  cat hello.txt 
+   91  ls -l
+   92  cat Exercises/task4.txt
+   93  ! > !
+   94  ls
+   95  rm !
+   96  ls
+   97  cat > Exercises/task4.txt
+   98  file hello.txt 
+   99  file Exercises/
+  100  cd /..
+  101  cd -
+  102  cd ../..
+  103  cd -
+  104  cd ../
+  105  cd -
+  106  cd - ..
+  107  cd \..
+  108  cd -
+  109  cd Exercises/
+  110  cat task1.txt  task2.txt task3.txt 
+  111  less task1.txt 
+  112  cat history
+  113  history >> JobDoneToday.txt
+for 09/01/202
+
+    1  echo "Hello World"
+    2  echo "I'm Free Now"
+    3  git --version
+    4  apt update -y
+    5  sudo apt update -y
+    6  sudo apt list -- upgradable
+    7  git config --lobal user.name "Sir-Kush"
+    8  git config --global user.name "Sir-Kush"
+    9  git config --global user.email "sirkush91@gmail.com"
+   10  git --version
+   11  git config -list -show-origin
+   12  git config --list -show-origin
+   13  git config --list --show-origin
+   14  git config --global -e
+   15  git config --global core.editor
+   16  git config --global -e
+   17  git config --global core.autocrlf input
+   18  git config --global -e
+   19  mkdir bluechip
+   20  cd bluechip/
+   21  ls
+   22  ll
+   23  ls -al
+   24  git init
+   25  ls -al
+   26  open .git/
+   27  echo hello world > file1
+   28  cp file1 file1.txt
+   29  ls
+   30  git add file1 file1.txt
+   31  git status
+   32  git rm --cached file1
+   33  ls
+   34  git status 
+   35  git commit
+   36  whoami
+   37  ls /etc/*release*
+   38  cat /etc/*os-release*
+   39  curl http://www.google.com
+   40  ls /root/
+   41  sudols /root/
+   42  sudo ls /root/
+   43  sudo ls /root
+   44  vi
+   45  uptime
+   46  curl https://w3school.com
+   47  ls
+   48  cd /etc
+   49  pwd
+   50  cd
+   51  mkdir LerningLinux
+   52  cd LerningLinux/
+   53  touch hello.txt
+   54  gedit hello.txt 
+   55  vi hello.txt 
+   56  cat hello.txt 
+   57  clear
+   58  ls
+   59  echo "Hello, World" >> hello.txt 
+   60  cat hello.txt 
+   61  mkdir Exercises
+   62  cd LerningLinux/Exercises/
+   63  cat > task1.txt
+   64  date
+   65  cat >> task1.txt 
+   66  woami
+   67  whoami
+   68  vi task1.txt 
+   69  pwd
+   70  cd
+   71  cd LerningLinux/Exercises/
+   72  vi task2.txt
+   73  cd .
+   74  cd ..
+   75  cd ~
+   76  cd -
+   77  mkdir CheatSheet
+   78  cat > cdCommandSheet.txt
+   79  vi Exercises/task3.txt
+   80  ls -R
+   81  ls
+   82  mv cdCommandSheet.txt CheatSheet
+   83  ls -R
+   84  ls -r
+   85  cat Exercises/task3.txt 
+   86  ls -t
+   87  ls -Rr
+   88  ls -l
+   89  touch hello.txt 
+   90  cat hello.txt 
+   91  ls -l
+   92  cat Exercises/task4.txt
+   93  ! > !
+   94  ls
+   95  rm !
+   96  ls
+   97  cat > Exercises/task4.txt
+   98  file hello.txt 
+   99  file Exercises/
+  100  cd /..
+  101  cd -
+  102  cd ../..
+  103  cd -
+  104  cd ../
+  105  cd -
+  106  cd - ..
+  107  cd \..
+  108  cd -
+  109  cd Exercises/
+  110  cat task1.txt  task2.txt task3.txt 
+  111  less task1.txt 
+  112  cat history
+  113  history >> JobDoneToday.txt
+  114  cat JobDoneToday.txt 
+  115  cd -
+  116  git init
+  117  git branch
+  118  git status
+  119  git config init.defaultBranch main
+  120  git config -e
+  121  git config --global user.name DevKush
+  122  git config --global user.email sirkush91@gmail.com
+  123  git config --global core.autocrlf update
+  124  git clone
+  125  git clone https://github.com/Sir-Kush/Learning_Linux_again.git
+  126  git add .
+  127  git config -e
+  128  git config --global -e
+  129  git vi
+  130  git config --global core.autocrlf inpute
+  131  git config --global -e
+  132  git config --global core.autocrlf 
+  133  git config --global core.autocrlf input
+  134  git config --global -e
+  135  git add .
+  136  git status
+  137  git commit 
+  138  git remote add origin https://github.com/Sir-Kush/Learning_Linux_again.git
+  139  git push
+  140  git push origin main
+  141  git push -u origin main
+  142  git push -u origin master
+  143  git checkout
+  144  git status
+  145  ls -al
+  146  git add .
+  147  git commit
+  148  rm -r .git/
+  149  ls -al
+  150  sudo rm -r .git/
+  151  ls -al
+  152  git init
+  153  git config --global init.defaultBranch main
+  154  git config --global -e
+  155  git add .
+  156  ls -la
+  157  git config --global -e
+  158  rm -r /home/ubaid/.gitconfig 
+  159  ls -la
+  160  git config --global -e
+  161  git config --global user.name "Devkush"
+  162  git config --global user.email sirkush91@gmail.com
+  163  git commit -m "The First Commit"
+  164  git add .
+  165  git commit -m "The First Commit"
+  166  git remote add origin https://github.com/Sir-Kush/learning_linux_again.git
+  167  git push -u origin master
+  168  git clone https://github.com/Sir-Kush/learning_linux_again.git
+  169  git status
+  170  sudo rm -r .git
+  171  rm -r /home/ubaid/.gitconfig 
+  172  ls
+  173  mv CheatSheet/ learning_linux_again/
+  174  ls
+  175  mv Exercises/ learning_linux_again/
+  176  mv hello.txt learning_linux_again/
+  177  cd learning_linux_again/
+  178  ls
+  179  vi README.md 
+  180  git config --global user.name Devkush
+  181  git config --global user.email sirkush91@gmail.com
+  182  git commit -m "My first commit in 2024"
+  183  git add .
+  184  git commit -m "My first commit in 2024"
+  185  git push
+  186  ls
+  187  mv * ..
+  188  ls
+  189  cd ..
+  190  ls
+  191  sudo rm -r learning_linux_again/
+  192  ls
+  193  ls -la
+  194  git clone https://github.com/Sir-Kush/learning_linux_again.git
+  195  mv CheatSheet Exercises hello.txt README.md learning_linux_again/
+  196  ls
+  197  cd learning_linux_again/
+  198  mv * ..
+  199  cd ..
+  200  ls
+  201  cat README.md 
+  202  sudo rm -r learning_linux_again/
+  203  cd ..
+  204  cd -
+  205  cp * ..
+  206  cp -r * ..
+  207  git clone https://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
+  208  github.com/Sir-Kush/learning_linux_again.git
+  209  git clone https://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@github.com/Sir-Kush/learning_linux_again.git
+  210  cd ..
+  211  ls
+  212  mv CheatSheet Exercises hello.txt README.md LerningLinux/learning_linux_again/
+  213  ls
+  214  cd LerningLinux/learning_linux_again/
+  215  ls
+  216  ls -la
+  217  git config --global -e
+  218  git add .
+  219  git commit -m "My first Commit in 2024"
+  220  git push
+  221  sudo rm -r learning_linux_again/
+  222  ls
+  223  git clone https://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@github.com/Sir-Kush/learning_linux_again.git
+  224  git clone https://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@github.com/Sir-Kush/my_Linux_Class.git
+  225  mv * my_Linux_Class/
+  226  ls
+  227  cd my
+  228  cd my_Linux_Class/
+  229  ls
+  230  git add
+  231  git add .
+  232  git commit -m "My first Commit in 2024"
+  233  git push -u
+  234  git push
+  235  vi .git/config 
+  236  git push
+  237  vi .git/config 
+  238  git remote -v
+  239  vi .git/config 
+  240  git remote -v
+  241  git -version
+  242  git --version
+  243  git push
+  244  vi .git/config 
+  245  git push
+  246  vi .git/config 
+  247  git push
+  248  git remote -v
+  249  vi .git/config 
+  250  git remote -v
+  251  git push
+  252  vi .git/config 
+  253  git push
+  254  git config --global -e
+  255  vi .git/config 
+  256  git config --global -e
+  257  git push
+  258  sudo dpkg -i <path-to-package>
+  259  cd
+  260  ls -l
+  261  sudo dpkg -i /home
+  262  sudo dpkg -i gcm-linux_amd64.2.4.1.deb 
+  263  git-credential-manager configure
+  264  cd -
+  265  git push
+  266  cd -
+  267  cd LerningLinux/
+  268  ls
+  269  la -al
+  270  ls -al
+  271  cd -
+  272  ls -al
+  273  cd -
+  274  cd my_Linux_Class/
+  275  ls -al
+  276  cp * ..
+  277  cp -r *..
+  278  cp  * -r..
+  279  cp  * -r ..
+  280  ls -al
+  281  cd -
+  282  ls -al
+  283  sudo rm -r my_Linux_Class/
+  284  ls -al
+  285  git config --global -e
+  286  git remote set-url origin https://Sir-Kush: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@github.com/Sir-Kush/Learning_Linux_again.git
+  287  git remote set-url origin https://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@github.com/Sir-Kush/Learning_Linux_again.git
+  288  git clone git remote set-url origin https://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@github.com/Sir-Kush/Learning_Linux_again.git
+  289  git clone https://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@github.com/Sir-Kush/Learning_Linux_again.git
+  290  git remote set-url origin https://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@github.com/Sir-Kush/Learning_Linux_again.git
+  291  cp * Learning_Linux_again/
+  292  ls
+  293  cd Learning_Linux_again/
+  294  ls
+  295  cd -
+  296  cp * _r Learning_Linux_again/
+  297  cp * -r Learning_Linux_again/
+  298  cd -
+  299  ls -a
+  300  git remote set-url origin https://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@github.com/Sir-Kush/Learning_Linux_again.git
+  301  .git/config
+  302  vi .git/config
+  303  sudo chmod 
+  304  sudo chmod +x
+  305  sudo chmod +u
+  306  sudo chmod +*
+  307  chmod -h
+  308  chmod --help
+  309  rm -r Exercises/ CheatSheet/
+  310  ls
+  311  cd Learning_Linux_again/
+  312  ls
+  313  cd -
+  314  rm -r Learning_Linux_again/
+  315  git config --global user.name "Sir-Kush"
+  316  git config --global user.email sirkush91@gmail.com
+  317  git config --global -e
+  318  git add .
+  319  git commit -m "My first commit"
+  320  git push
+  321  ssh-keygen -t rsa -C "sirkush91@gmail.com"
+  322  cat /home/ubaid/.ssh/id_rsa.pub
+  323  ssh -T git@github.com
+  324  ls
+  325  cd LerningLinux/
+  326  ls
+  327  cd Learning_Linux_again/
+  328  git status
+  329  git branch --unset-upstream
+  330  git status
+  331  ls
+  332  git add .
+  333  git commit -m "My first commit"
+  334  git commit
+  335  cd -
+  336  sudo rm -rf Learning_Linux_again/
+  337  ls
+  338  ls -l
+  339  git clone git@github.com:Sir-Kush/Learning_Linux_again.git
+  340  cp -r hello.txt README.md Learning_Linux_again/
+  341  cd -
+  342  ls 
+  343  git add .
+  344  git status
+  345  git config --global -e
+  346  git commit -m "My first commit"
+  347  git push
+  348  cd -
+  349  ls
+  350  ls -l CheatSheet/
+  351  mv CheatSheet Exercises Learning_Linux_again/
+  352  cd-
+  353  cd -
+  354  ls
+  355  git add CheatSheet Exercises
+  356  git commit -m "Update on directory files"
+  357  git push
+  358  ls
+  359  cd CheatSheet/
+  360  ls
+  361  cd -
+  362  cd Exercises/
+  363  ls
+  364  cat > task5.txt
+  365  vi task5.txt 
+  366  ls
+  367  mv JobDoneToday.txt to myDailyHistoryofCommand.txt
+  368  ls
+  369  mv JobDoneToday.txt  myDailyHistoryofCommand.txt
+  370  ls
+  371  vi myDailyHistoryofCommand.txt 
+  372  vi task5.txt 
+  373  find /root -name *net
+  374  sudo find /root -name *net
+  375  sudo find /root -name net
+  376  find /home name README.md
+  377  find /home -name README.md
+  378  sudo find /root -type d -name net
+  379  sudo su
+  380  cd
+  381  cd LerningLinux/Learning_Linux_again/
+  382  vi Exercises/task5.txt 
+  383  help logout
+  384  help pwd
+  385  echo $PWD
+  386  man logout
+  387  man help
+  388  man man
+  389  man echo
+  390  whatis less
+  391  whatis find
+  392  whatis whoami
+  393  whatis su
+  394  whatis sudo
+  395  ~/.bashrc
+  396  sudo ~/.bashrc
+  397  sudo vi ~/.bashrc
+  398  ll
+  399  sudo vi ~/.bashrc
+  400  alais ll='ls -al'
+  401  alias ll='ls -la'
+  402  ll
+  403  sudo vi ~/.bashrc
+  404  ll
+  405  cl
+  406  git add .
+  407  git commit -m "Finish basic command in Linux"
+  408  git push
+  409  touch history >> myDailyHistoryofCommand.txt
+  410  git add myDailyHistoryofCommand.txt 
+  411  cat >> myDailyHistoryofCommand.txt 
+  412  git add myDailyHistoryofCommand.txt 
+  413  git commit -m "Update On my History Command" 
+  414  git push
+  415  sudo apt update
+  416  sudo apt install openjdk-11-jdk -y
+  417  ll
+  418  cd LerningLinux/Learning_Linux_again/ && ls -l /var/log/ myoutput..txt
+  419  cd LerningLinux/Learning_Linux_again/ && ls -l /var/log/ myoutput.txt
+  420  ls -l /var/log/ > myoutput.txt
+  421  ls
+  422  cat myoutput.txt 
+  423  echo Hello World > rm
+  424  ls
+  425  cat rm
+  426  > somefile.txt
+  427  ls
+  428  cd Exercises/
+  429  ls
+  430  mkdir linuxCL
+  431  mv *.txt linuxCL/
+  432  ls
+  433  mkdir linuxtext-Fu
+  434  cd linuxtext-Fu/
+  435  vi stdouttask.txt
+  436  ls
+  437  cat >> stdouttask.txt
+  438  vi stdouttask.txt
+  439  cat < stdouttask.txt > stdinclass.txt
+  440  cat stdinclass.txt 
+  441  cat stdinclass.txt >> std.txt 
+  442  cat  std.txt 
+  443  rm std.txt 
+  444  cat >> stdintask.txt
+  445  vi stdintask.txt 
+  446  echo Hello World > peanuts.txt
+  447  echo < peanuts.txt > banana.txt
+  448  cat banana.txt 
+  449  cat peanuts.txt 
+  450  ls < peanuts.txt > banana.txt 
+  451  cat peanuts.txt 
+  452  pwd < peanuts.txt > banana.txt 
+  453  cat peanuts.txt 
+  454  vi stdintask.txt 
+  455  ls /fake/directory > peanuts.txt 
+  456  cat peanuts.txt 
+  457  cd LerningLinux/Learning_Linux_again/
+  458  ls
+  459  cd Exercises/
+  460  ls
+  461  cd linuxtext-Fu/
+  462  ls
+  463  cut -f 2 sample.txt 
+  464  cut -f 1 -d ";" sample.txt 
+  465  cut -f 1 sample.txt 
+  466  cut sample.txt 
+  467  cut -f sample.txt 
+  468  cut --help 
+  469  cut -c 1 sample.txt 
+  470  cat sample.txt 
+  471  cat > sample2.txt
+  472  paste -s sample2.txt 
+  473  paste -d '' -s sample2.txt 
+  474  paste -d ' ' -s sample2.txt 
+  475  head /var/log/syslog
+  476  sudo head /var/log/syslog
+  477  cd /var
+  478  ll
+  479  cd log
+  480  ls
+  481  cd -
+  482  cd ..
+  483  ls
+  484  cd ~
+  485  cd LerningLinux/Learning_Linux_again/Exercises/linuxtext-Fu/
+  486  ll
+  487  cd ..
+  488  ls
+  489  cd linuxCL/
+  490  ls
+  491  touch history >> myDailyHistoryofCommand.txt 
+  492  vi myDailyHistoryofCommand.txt 
+  493  history >> myDailyHistoryofCommand.txt
+
+Jan 15/01/2024
+ 
